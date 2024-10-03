@@ -12,44 +12,50 @@ import { InfiniteMovingLogos } from "@/components/ui/infinite-moving-logo";
 import logo1 from "/public/images/logo1.jpg";
 import logo2 from "/public/images/logo2.webp";
 import logo3 from "/public/images/logo3.jpg";
+import s_1 from "/public/images/s_1.png";
+import s_2 from "/public/images/s_2.png";
+import s_3 from "/public/images/s_3.png";
+import s_4 from "/public/images/s_4.png";
+import s_5 from "/public/images/s_5.png";
+import s_6 from "/public/images/s_6.png";
 import { WordPullUpDemo } from "@/components/demos/word-pull-upp-demo";
 
 const services = [
   {
-    icon: "/images/s_6.png",
-    title: "Web Design + Development",
+    icon: s_6.src,
+    title: "Conception et développement web",
     description:
-      "Take your business to the next level with our web design and development services",
+      "Faites passer votre entreprise au niveau supérieur avec nos services de conception et de développement web",
   },
   {
-    icon: "/images/s_1.png",
-    title: "Search Engine Optimization",
+    icon: s_1.src,
+    title: "Optimisation pour les moteurs de recherche",
     description:
-      "Get your website to the top of search engine results with our SEO services",
+      "Faites apparaître votre site web en tête des résultats de recherche avec nos services SEO",
   },
   {
-    icon: "/images/s_5.png",
-    title: "Content Creation",
+    icon: s_5.src,
+    title: "Création de contenu",
     description:
-      "Boost your brand's online presence with our social media marketing services",
+      "Boostez la présence en ligne de votre marque avec nos services de marketing sur les réseaux sociaux",
   },
   {
-    icon: "/images/s_3.png",
-    title: "Social Media Marketing",
+    icon: s_3.src,
+    title: "Marketing sur les réseaux sociaux",
     description:
-      "Interact with your customers and increase sales with our email marketing services",
+      "Interagissez avec vos clients et augmentez vos ventes avec nos services de marketing par e-mail",
   },
   {
-    icon: "/images/s_4.png",
-    title: "Email Marketing",
+    icon: s_4.src,
+    title: "Marketing par e-mail",
     description:
-      "With our content creation services, we help businesses drive results",
+      "Avec nos services de création de contenu, nous aidons les entreprises à générer des résultats",
   },
   {
-    icon: "/images/s_2.png",
-    title: "Pay-Per-Click Advertising",
+    icon: s_2.src,
+    title: "Publicité payante par clic",
     description:
-      "Don't waste money on ineffective advertising. Our PPC services help you reach your target audience",
+      "Ne gaspillez pas votre argent sur de la publicité inefficace. Nos services PPC vous aident à atteindre votre public cible",
   },
 ];
 export default function Home() {
@@ -261,6 +267,8 @@ export default function Home() {
           </div>
         </div>
       </Element>
+
+      <section></section>
     </div>
   );
 }

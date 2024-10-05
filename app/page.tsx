@@ -19,6 +19,7 @@ import s_4 from "/public/images/s_4.png";
 import s_5 from "/public/images/s_5.png";
 import s_6 from "/public/images/s_6.png";
 import { WordPullUpDemo } from "@/components/demos/word-pull-upp-demo";
+import { ScrollBasedVelocityDemo } from "@/components/demos/scroll-based-velocity-demo";
 
 const services = [
   {
@@ -268,7 +269,9 @@ export default function Home() {
         </div>
       </Element>
 
-      <section></section>
+      <section className="py-20">
+        <ScrollBasedVelocityDemo />
+      </section>
     </div>
   );
 }

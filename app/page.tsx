@@ -24,6 +24,8 @@ import { WordPullUpDemo } from "@/components/demos/word-pull-upp-demo";
 import { ScrollBasedVelocityDemo } from "@/components/demos/scroll-based-velocity-demo";
 import { AnimatedBeamMultipleOutputDemo } from "@/components/demos/animated-beam-demo";
 import BoxRevealDemo from "@/components/demos/box-reveal-demo";
+import { IconStarFilled } from "@tabler/icons-react";
+import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting-stars-demo";
 
 const services = [
   {
@@ -319,6 +321,42 @@ export default function Home() {
             </div>
           </div>
         </main>
+      </Element>
+
+      <section>
+        <main className="md:flex items-center justify-center space-y-6 md:space-y-0 md:gap-x-20 xl:w-4/5 2xl:w-[68%] mx-auto px-6 md:px-0">
+          <Image
+            src={Logo.src}
+            width={10000}
+            height={10000}
+            className=" md:w-1/3 rounded-md"
+            alt="image"
+          />
+          <div className="flex flex-col gap-y-5 md:w-1/2">
+            <h1 className="text-lg md:text-2xl ">
+              &quot;Nous travaillons avec Galsen digital studio depuis plus de 2
+              ans, et c&apos;est un plaisir de collaborer avec eux. Ils nous ont
+              aidés à développer notre entreprise, et nous ne pourrions pas être
+              plus satisfaits des résultats.&quot;
+            </h1>
+            <div className="flex items-center gap-x-1">
+              <IconStarFilled className="text-4xl text-yellow-500" />
+              <IconStarFilled className="text-4xl text-yellow-500" />
+              <IconStarFilled className="text-4xl text-yellow-500" />
+              <IconStarFilled className="text-4xl text-yellow-500" />
+              <IconStarFilled className="text-4xl text-yellow-500" />
+            </div>
+
+            <span className="text-xl font-medium">
+              Fallou Seck <br />
+              CEO, Gallash Shop
+            </span>
+          </div>
+        </main>
+      </section>
+
+      <Element name="guarentees">
+        <ShootingStarsAndStarsBackgroundDemo />
       </Element>
     </div>
   );
